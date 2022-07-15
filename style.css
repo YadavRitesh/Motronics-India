@@ -1,0 +1,94 @@
+.Support {
+    color: white;
+    font-family: Poly;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 119.5%;
+    margin: 0 0 0 -50px;
+}
+
+.bookFree {
+    font-family: Poly;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 119.5%;
+    /* identical to box height, or 29px */
+    color: #FF0007;
+}
+
+.nav2 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 0px #dedede;
+  }
+  .nav2 ul {
+    list-style: none;
+    text-align: center;
+  }
+  .nav2 ul li {
+    display: inline-block;
+  }
+  .nav2 ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #aaa;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+  .nav2 ul li a,
+  .nav2 ul li a:after,
+  .nav2 ul li a:before {
+    transition: all .5s;
+  }
+  .nav2 ul li a:hover {
+    color: red
+  }
+  
+  
+  /* stroke */
+  .nav2.stroke ul li a{
+    position: relative;
+  }
+  .nav2.stroke ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: red;
+    height: 1px;
+  }
+  .nav2.stroke ul li a:hover:after {
+    width: 100%;
+  }
+
+.nav1 {
+    padding: 0 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.navbar-brand {
+    margin: 0 0 0 50px;
+}
+
+.nav2{
+    padding: 0 20px;
+    color: white;
+    font-family: Poly;
+    font-size: 20px;
+}
+.container .circle{
+    background-image: url(./images/74499-circle.gif);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: -25% 80%;
+}
